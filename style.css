@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background: rgb(156, 255, 255);
+}
+
+h1{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+h2:nth-child(5){
+    margin-bottom: 30px;
+    color: red;
+}
+
+.grid{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(218, 249, 250);
+    border-radius: 25px;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(30, 203, 226);
+    border-radius: 25px;
+}
+
+.mole{
+    /* background-color: blue; */
+    background-image: url(imgs/pawel-czerwinski-_NPyWow9CZk-unsplash.jpg);
+    background-size: cover;
+}
+
