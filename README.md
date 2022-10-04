@@ -1,1 +1,3 @@
-# whac-a-mole was created to strenghten my abilities working with js
+# whac-a-mole
+was created to further my abilities working with js
+working with eventlisteners and queryselectors
